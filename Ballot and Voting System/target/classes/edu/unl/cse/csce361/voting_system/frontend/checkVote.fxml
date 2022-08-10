@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.unl.cse.csce361.voting_system.frontend.CheckVoteController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="228.0" layoutY="277.0" mnemonicParsing="false" onAction="#searchVoter" prefHeight="39.0" prefWidth="144.0" text="Search for Voter" textAlignment="CENTER">
+               <font>
+                  <Font name="Avenir Black" size="13.0" />
+               </font></Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="64.0" layoutX="87.0" layoutY="16.0" opacity="0.6" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2.0" width="442.0" />
+            <Text layoutX="94.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City of Pacopolis Election Official">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Text>
+            <TextField fx:id="voterSsn" layoutX="245.0" layoutY="220.0" prefHeight="25.0" prefWidth="216.0" promptText="Voter's SSN" />
+            <Label fx:id="result" layoutX="146.0" layoutY="348.0" prefHeight="17.0" prefWidth="324.0" text="Select the Voter's ballot information you want to research" textAlignment="CENTER" />
+            <TextField fx:id="voterLastName" layoutX="245.0" layoutY="180.0" prefHeight="25.0" prefWidth="216.0" promptText="Voter's Last Name" />
+            <TextField fx:id="voterFirstName" layoutX="245.0" layoutY="140.0" prefHeight="25.0" prefWidth="216.0" promptText="Voter's First Name" />
+            <Label layoutX="130.0" layoutY="140.0" text="Voter First Name" />
+            <Label layoutX="130.0" layoutY="180.0" text="Voter Last Name" />
+            <Label layoutX="130.0" layoutY="220.0" text="Voter SSN" />
+            <Button layoutX="14.0" layoutY="34.0" mnemonicParsing="false" onAction="#pressReturn" prefHeight="28.0" prefWidth="60.0" text="Back" textFill="#0b32cd">
+               <font>
+                  <Font name="Avenir Black" size="13.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

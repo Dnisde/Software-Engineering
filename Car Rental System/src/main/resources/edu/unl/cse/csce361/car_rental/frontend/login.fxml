@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.unl.cse.csce361.car_rental.frontend.Controller">
+   <children>
+      <TextField fx:id="returningName" layoutX="47.0" layoutY="60.0" promptText="Account Name" />
+      <Label layoutX="47.0" layoutY="28.0" prefHeight="17.0" prefWidth="149.0" text="Login(Returning Customer)" />
+      <TextField layoutX="47.0" layoutY="101.0" promptText="Password" />
+      <TextField fx:id="fullName" layoutX="393.0" layoutY="60.0" promptText="Full Name" />
+      <Label layoutX="392.0" layoutY="28.0" prefHeight="17.0" prefWidth="149.0" text="Create Account" />
+      <TextField fx:id="address" layoutX="393.0" layoutY="89.0" promptText="Address" />
+      <TextField fx:id="address2" layoutX="393.0" layoutY="114.0" promptText="Address 2 (if needed)" />
+      <TextField fx:id="city" layoutX="393.0" layoutY="139.0" promptText="City" />
+      <TextField fx:id="city" layoutX="393.0" layoutY="164.0" promptText="State" />
+      <TextField fx:id="zip" layoutX="393.0" layoutY="189.0" promptText="Zip Code" />
+      <TextField fx:id="corpAccount" layoutX="393.0" layoutY="214.0" promptText="Corporate Account" />
+      <SplitMenuButton fx:id="customerType" layoutX="221.0" layoutY="280.0" mnemonicParsing="false" onAction="#clickLoginMenu" text="Customer Type">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Corporate" />
+          <MenuItem mnemonicParsing="false" text="Individual" />
+        </items>
+      </SplitMenuButton>
+      <Label layoutX="335.0" layoutY="218.0" text="*If applies*" />
+      <Button fx:id="login" layoutX="263.0" layoutY="337.0" mnemonicParsing="false" onAction="#login" text="Login" />
+   </children>
+</AnchorPane>

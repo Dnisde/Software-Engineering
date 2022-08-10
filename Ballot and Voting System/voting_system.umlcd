@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_3jsLcNUhEeqRsZAO3ymM7Q">
+  <modelElement href="voting_system.uml#_4o9xcNUhEeqRsZAO3ymM7Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_D87ZANUiEeqRsZAO3ymM7Q" sourceAnchor="607.0,209.0" targetAnchor="182.0,0.0" target="_D9QJINUiEeqRsZAO3ymM7Q" source="_EZYEcNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6HSwoNUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsSd0NUiEeqRsZAO3ymM7Q" sourceX="217" targetY="-344"/>
+    <stereotypes xmi:id="_D88nINUiEeqRsZAO3ymM7Q" name="Reference">
+      <modelElement href="voting_system.uml#_6HlEgNUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_D88nIdUiEeqRsZAO3ymM7Q" text="">
+      <visualProperties xmi:id="_Fsvw0NUiEeqRsZAO3ymM7Q" position="-153.0,-13.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_D89OMNUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="">
+      <modelElement href="voting_system.uml#_6HSwodUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_FsuisNUiEeqRsZAO3ymM7Q" position="5.5,-71.5"/>
+      <visibility xmi:id="_D89OMdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_D89OMtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_D89OM9UiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="ballot" navigable="true">
+      <modelElement href="voting_system.uml#_6CiMctUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_FswX4NUiEeqRsZAO3ymM7Q" position="-67.0,-337.5"/>
+      <stereotypes xmi:id="_D89ONNUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CizgNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_D89ONdUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CjakNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D89ONtUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_D89ON9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_D9ARgNUiEeqRsZAO3ymM7Q" sourceAnchor="0.0,153.0" targetAnchor="221.0,0.0" target="_D9QJINUiEeqRsZAO3ymM7Q" source="_EtHf0NUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6PV5YNUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsXWUNUiEeqRsZAO3ymM7Q" sourceX="-119" targetY="-1072"/>
+    <stereotypes xmi:id="_D9A4kNUiEeqRsZAO3ymM7Q" name="Reference">
+      <modelElement href="voting_system.uml#_6PzzcNUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_D9A4kdUiEeqRsZAO3ymM7Q" text="">
+      <visualProperties xmi:id="_Fs7-ENUiEeqRsZAO3ymM7Q" position="16.0,-13.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_D9A4ktUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="">
+      <modelElement href="voting_system.uml#_6PV5YdUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_Fs6I4NUiEeqRsZAO3ymM7Q" position="-21.5,6.5"/>
+      <visibility xmi:id="_D9A4k9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_D9A4lNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_D9A4ldUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="ballot" navigable="true">
+      <modelElement href="voting_system.uml#_6DkuQNUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_Fs8lINUiEeqRsZAO3ymM7Q" position="-70.0,-1038.0"/>
+      <stereotypes xmi:id="_D9A4ltUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6DlVUNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_D9A4l9UiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6Dl8YNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D9A4mNUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_D9A4mdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_D9CtwNUiEeqRsZAO3ymM7Q" sourceAnchor="432.0,139.0" targetAnchor="208.0,0.0" target="_D9QJINUiEeqRsZAO3ymM7Q" source="_EhnacNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6QK_0dUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsU6ENUiEeqRsZAO3ymM7Q" sourceX="213" targetY="-968"/>
+    <stereotypes xmi:id="_D9DU0NUiEeqRsZAO3ymM7Q" name="Reference">
+      <modelElement href="voting_system.uml#_6Qd6wNUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_D9DU0dUiEeqRsZAO3ymM7Q" text="">
+      <visualProperties xmi:id="_Fs3soNUiEeqRsZAO3ymM7Q" position="-153.0,-13.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_D9DU0tUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="">
+      <modelElement href="voting_system.uml#_6QK_0tUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_Fs13cNUiEeqRsZAO3ymM7Q" position="5.0,-71.5"/>
+      <visibility xmi:id="_D9DU09UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_D9DU1NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_D9DU1dUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="ballot" navigable="true">
+      <modelElement href="voting_system.uml#_6DwUcNUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_Fs4TsNUiEeqRsZAO3ymM7Q" position="-67.0,-961.5"/>
+      <stereotypes xmi:id="_D9DU1tUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6Dw7gNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_D9DU19UiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6DxikNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D9DU2NUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_D9DU2dUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_D9INUNUiEeqRsZAO3ymM7Q" sourceAnchor="169.0,0.0" targetAnchor="304.0,418.0" target="_EZYEcNUiEeqRsZAO3ymM7Q" source="_D9QJINUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6GJhINUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsMXMNUiEeqRsZAO3ymM7Q" sourceY="-19" targetX="507" targetY="116"/>
+    <bendpoints xmi:id="_FsM-QNUiEeqRsZAO3ymM7Q" sourceX="-507" sourceY="-19" targetY="116"/>
+    <stereotypes xmi:id="_D9I0YNUiEeqRsZAO3ymM7Q" name="Reference">
+      <modelElement href="voting_system.uml#_6Gam4NUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_D9I0YdUiEeqRsZAO3ymM7Q" text="">
+      <visualProperties xmi:id="_FscO0NUiEeqRsZAO3ymM7Q" position="-107.0,-13.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_D9I0YtUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="">
+      <modelElement href="voting_system.uml#_6GJhIdUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_FsZLgdUiEeqRsZAO3ymM7Q" position="-191.0,-12.5"/>
+      <visibility xmi:id="_D9I0Y9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_D9I0ZNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_D9I0ZdUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="propositions" navigable="true">
+      <modelElement href="voting_system.uml#_6B0awdUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_Fsdc8NUiEeqRsZAO3ymM7Q" position="6.0,5.0"/>
+      <visibility xmi:id="_D9I0ZtUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_D9I0Z9UiEeqRsZAO3ymM7Q" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_D9PiENUiEeqRsZAO3ymM7Q" sourceAnchor="195.0,0.0" targetAnchor="216.0,278.0" target="_EhnacNUiEeqRsZAO3ymM7Q" source="_D9QJINUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6Gm0INUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsOzcNUiEeqRsZAO3ymM7Q" sourceY="-721" targetX="416" targetY="108"/>
+    <bendpoints xmi:id="_FsOzcdUiEeqRsZAO3ymM7Q" sourceX="-416" sourceY="-721" targetY="108"/>
+    <stereotypes xmi:id="_D9PiEdUiEeqRsZAO3ymM7Q" name="Reference">
+      <modelElement href="voting_system.uml#_6G2EsNUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_D9PiEtUiEeqRsZAO3ymM7Q" text="">
+      <visualProperties xmi:id="_Fsmm4NUiEeqRsZAO3ymM7Q" position="-114.0,-13.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_D9PiE9UiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="">
+      <modelElement href="voting_system.uml#_6Gm0IdUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_FskxsNUiEeqRsZAO3ymM7Q" position="-22.000000000000114,-714.5"/>
+      <visibility xmi:id="_D9PiFNUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_D9PiFdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_D9PiFtUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="races" navigable="true">
+      <modelElement href="voting_system.uml#_6B4sMNUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_FsocENUiEeqRsZAO3ymM7Q" position="10.49999999999983,5.0"/>
+      <visibility xmi:id="_D9PiF9UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_D9PiGNUiEeqRsZAO3ymM7Q" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EC1MsNUiEeqRsZAO3ymM7Q" sourceAnchor="271.0,0.0" targetAnchor="162.0,100.0" dashed="true" superClass="_EBK_0NUiEeqRsZAO3ymM7Q" subClass="_EF4gsNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_51GNYNUhEeqRsZAO3ymM7Q"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EE_v4NUiEeqRsZAO3ymM7Q" sourceAnchor="229.0,0.0" targetAnchor="271.0,334.0" target="_EF4gsNUiEeqRsZAO3ymM7Q" source="_EhnacNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6PzzcdUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsUTANUiEeqRsZAO3ymM7Q" sourceY="-30" targetX="-312" targetY="106"/>
+    <bendpoints xmi:id="_FsUTAdUiEeqRsZAO3ymM7Q" sourceX="312" sourceY="-30" targetY="106"/>
+    <stereotypes xmi:id="_EFqeQNUiEeqRsZAO3ymM7Q" name="Reference">
+      <modelElement href="voting_system.uml#_6QK_0NUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EFoCANUiEeqRsZAO3ymM7Q" text="">
+      <visualProperties xmi:id="_FszbMNUiEeqRsZAO3ymM7Q" position="94.0,-13.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EFpQINUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="">
+      <modelElement href="voting_system.uml#_6P0agNUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_FsyNENUiEeqRsZAO3ymM7Q" position="5.0,-101.5"/>
+      <visibility xmi:id="_EFxL8dUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EFxL8NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EFp3MNUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="candidates" navigable="true">
+      <modelElement href="voting_system.uml#_6Dt4MNUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_Fs0CQNUiEeqRsZAO3ymM7Q" position="1.0,5.0"/>
+      <stereotypes xmi:id="_EFyaENUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6DvGUNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EFyaEdUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6DvtYNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EFxzAdUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EFxzANUiEeqRsZAO3ymM7Q" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EFffINUiEeqRsZAO3ymM7Q" sourceAnchor="0.0,167.0" targetAnchor="216.0,0.0" target="_EhnacNUiEeqRsZAO3ymM7Q" source="_EF4gsNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6G2rwNUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsPagNUiEeqRsZAO3ymM7Q" sourceX="-54" targetY="-303"/>
+    <stereotypes xmi:id="_EFs6gNUiEeqRsZAO3ymM7Q" name="Reference">
+      <modelElement href="voting_system.uml#_6HEHINUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EFqeQdUiEeqRsZAO3ymM7Q" text="">
+      <visualProperties xmi:id="_FsrfYNUiEeqRsZAO3ymM7Q" position="-23.0,142.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EFrFUNUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="">
+      <modelElement href="voting_system.uml#_6G2rwdUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_FsqRQNUiEeqRsZAO3ymM7Q" position="-22.0,6.5"/>
+      <visibility xmi:id="_EFzBIdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EFzBINUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EFsTcNUiEeqRsZAO3ymM7Q" aggregationKind="NONE" name="race" navigable="true">
+      <modelElement href="voting_system.uml#_6CESYdUhEeqRsZAO3ymM7Q"/>
+      <visualProperties xmi:id="_FssGcNUiEeqRsZAO3ymM7Q" position="-50.5,-87.0"/>
+      <visibility xmi:id="_EFzBI9UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EFzBItUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EJkG0NUiEeqRsZAO3ymM7Q" sourceAnchor="337.0,0.0" targetAnchor="72.0,64.0" dashed="true" superClass="_EH-LYNUiEeqRsZAO3ymM7Q" subClass="_EKtWUNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_52R5INUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsQooNUiEeqRsZAO3ymM7Q" sourceY="-130" targetX="-13" targetY="20"/>
+    <bendpoints xmi:id="_FsQoodUiEeqRsZAO3ymM7Q" sourceX="13" sourceY="-130" targetY="20"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_EKmooNUiEeqRsZAO3ymM7Q" targetItem="_EKtWUNUiEeqRsZAO3ymM7Q" sourceItem="_EKTtsNUiEeqRsZAO3ymM7Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EMZYYNUiEeqRsZAO3ymM7Q" sourceAnchor="72.0,0.0" targetAnchor="162.0,184.0" superClass="_EN1i0NUiEeqRsZAO3ymM7Q" subClass="_EH-LYNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_52QD8NUhEeqRsZAO3ymM7Q"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EPwOYNUiEeqRsZAO3ymM7Q" sourceAnchor="276.0,0.0" targetAnchor="162.0,184.0" dashed="true" superClass="_EN1i0NUiEeqRsZAO3ymM7Q" subClass="_ET_1MNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_54Q2INUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsR2wNUiEeqRsZAO3ymM7Q" sourceY="-18" targetX="-377" targetY="38"/>
+    <bendpoints xmi:id="_FsR2wdUiEeqRsZAO3ymM7Q" sourceX="377" sourceY="-18" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ERrhANUiEeqRsZAO3ymM7Q" targetItem="_ET_1MNUiEeqRsZAO3ymM7Q" sourceItem="_ERpr0NUiEeqRsZAO3ymM7Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ERsvINUiEeqRsZAO3ymM7Q" sourceAnchor="324.0,0.0" targetAnchor="276.0,275.0" superClass="_ET_1MNUiEeqRsZAO3ymM7Q" subClass="_EKtWUNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_52TuUNUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsQootUiEeqRsZAO3ymM7Q" sourceY="-13" targetX="351" targetY="32"/>
+    <bendpoints xmi:id="_FsRPsNUiEeqRsZAO3ymM7Q" sourceX="-351" sourceY="-13" targetY="32"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ERwZgNUiEeqRsZAO3ymM7Q" sourceAnchor="570.0,0.0" targetAnchor="276.0,275.0" superClass="_ET_1MNUiEeqRsZAO3ymM7Q" subClass="_EtHf0NUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_59tW0NUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsX9YNUiEeqRsZAO3ymM7Q" sourceY="-146" targetX="-26" targetY="32"/>
+    <bendpoints xmi:id="_FsYkcNUiEeqRsZAO3ymM7Q" sourceX="26" sourceY="-146" targetY="32"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ETzn8NUiEeqRsZAO3ymM7Q" targetItem="_EtHf0NUiEeqRsZAO3ymM7Q" sourceItem="_ETRccNUiEeqRsZAO3ymM7Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EV89ANUiEeqRsZAO3ymM7Q" sourceAnchor="304.0,0.0" targetAnchor="171.0,128.0" dashed="true" superClass="_EYZ0ENUiEeqRsZAO3ymM7Q" subClass="_EZYEcNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_54WVsNUhEeqRsZAO3ymM7Q"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_EeGMYNUiEeqRsZAO3ymM7Q" sourceAnchor="203.0,0.0" targetAnchor="200.0,135.0" dashed="true" superClass="_EgZ5gNUiEeqRsZAO3ymM7Q" subClass="_EhnacNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_590rkNUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsWIMNUiEeqRsZAO3ymM7Q" sourceY="-17" targetX="260" targetY="24"/>
+    <bendpoints xmi:id="_FsWIMdUiEeqRsZAO3ymM7Q" sourceX="-260" sourceY="-17" targetY="24"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Eld_sNUiEeqRsZAO3ymM7Q" sourceAnchor="162.0,0.0" targetAnchor="162.0,184.0" superClass="_EN1i0NUiEeqRsZAO3ymM7Q" subClass="_Eo_NwNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_54pQoNUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsWvQNUiEeqRsZAO3ymM7Q" sourceY="-64" targetX="338" targetY="38"/>
+    <bendpoints xmi:id="_FsWvQdUiEeqRsZAO3ymM7Q" sourceX="-338" sourceY="-64" targetY="38"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_En4agNUiEeqRsZAO3ymM7Q" sourceAnchor="583.0,0.0" targetAnchor="162.0,184.0" dashed="true" superClass="_Eo_NwNUiEeqRsZAO3ymM7Q" subClass="_EtHf0NUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_59rhoNUhEeqRsZAO3ymM7Q"/>
+    <bendpoints xmi:id="_FsYkcdUiEeqRsZAO3ymM7Q" sourceY="-16" targetX="-728" targetY="207"/>
+    <bendpoints xmi:id="_FsZLgNUiEeqRsZAO3ymM7Q" sourceX="728" sourceY="-16" targetY="207"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_EKTtsNUiEeqRsZAO3ymM7Q" sourceConnectionVisual="_EKmooNUiEeqRsZAO3ymM7Q" text="&#xD;&#xA;Hibernate implementation of {@link ElectionOfficial}.&#xD;&#xA; *" item="_EKtWUNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6FOUENUhEeqRsZAO3ymM7Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ERpr0NUiEeqRsZAO3ymM7Q" sourceConnectionVisual="_ERrhANUiEeqRsZAO3ymM7Q" text="Hibernate implementation of {@link Person}." item="_ET_1MNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6FO7INUhEeqRsZAO3ymM7Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ETRccNUiEeqRsZAO3ymM7Q" sourceConnectionVisual="_ETzn8NUiEeqRsZAO3ymM7Q" text="Hibernate implementation of {@link Voter}." item="_EtHf0NUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_6Fc9kNUhEeqRsZAO3ymM7Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D9QJINUiEeqRsZAO3ymM7Q" name="BallotEntity" associationsIn="_D87ZANUiEeqRsZAO3ymM7Q _D9ARgNUiEeqRsZAO3ymM7Q _D9CtwNUiEeqRsZAO3ymM7Q" associationsOut="_D9INUNUiEeqRsZAO3ymM7Q _D9PiENUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4voaINUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_D9QwMNUiEeqRsZAO3ymM7Q" position="704.0,1948.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_D9QwMdUiEeqRsZAO3ymM7Q" name="JPA1StyledElement">
+      <modelElement href="voting_system.uml#_4vvH0NUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <visibility xmi:id="_D9QwMtUiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_D9QwM9UiEeqRsZAO3ymM7Q" name="ballotId">
+      <modelElement href="voting_system.uml#_6BxXcNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_D9QwNNUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6BylkNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_D9QwNdUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6BzzsNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D9QwNtUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_D9QwN9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_D9QwONUiEeqRsZAO3ymM7Q" name="Long">
+        <modelElement href="voting_system.uml#_5_W8oNUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_D9QwOdUiEeqRsZAO3ymM7Q" name="propositions">
+      <modelElement href="voting_system.uml#_6B0awdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_D9QwOtUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6B1o4NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_D9QwO9UiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6B2P8NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D9QwPNUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_D9QwPdUiEeqRsZAO3ymM7Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_D9QwPtUiEeqRsZAO3ymM7Q" name="PropositionEntity">
+        <modelElement href="voting_system.uml#_4zAeQNUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_D9QwRdUiEeqRsZAO3ymM7Q" name="races">
+      <modelElement href="voting_system.uml#_6B4sMNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_D9QwRtUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6B6hYNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_D9QwR9UiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6B7vgNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D9QwSNUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_D9QwSdUiEeqRsZAO3ymM7Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_D9QwStUiEeqRsZAO3ymM7Q" name="RaceEntity">
+        <modelElement href="voting_system.uml#_41CekNUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_D9QwS9UiEeqRsZAO3ymM7Q" name="BallotEntity">
+      <modelElement href="voting_system.uml#_4v11gNUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_D9QwTNUiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_D9QwTdUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4v3qsNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D9QwTtUiEeqRsZAO3ymM7Q" label="~"/>
+      <cardinality xmi:id="_D9QwT9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_D9QwUNUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4v2cktUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_D9QwUdUiEeqRsZAO3ymM7Q" name="BallotEntity">
+          <modelElement href="voting_system.uml#_4voaINUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_D9QwXNUiEeqRsZAO3ymM7Q" name="addProposition">
+      <modelElement href="voting_system.uml#_50UxUNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_D9QwXdUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_50V_cNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D9QwXtUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_D9QwX9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_D9QwYNUiEeqRsZAO3ymM7Q" name="proposition">
+        <modelElement href="voting_system.uml#_50VYYNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_D9QwYdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_D9RXQNUiEeqRsZAO3ymM7Q" name="PropositionEntity">
+          <modelElement href="voting_system.uml#_4zAeQNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_D9RXQdUiEeqRsZAO3ymM7Q" name="addRace">
+      <modelElement href="voting_system.uml#_50V_cdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_D9RXQtUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_50X0oNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D9RXQ9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_D9RXRNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_D9RXRdUiEeqRsZAO3ymM7Q" name="race">
+        <modelElement href="voting_system.uml#_50WmgNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_D9RXRtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_D9RXR9UiEeqRsZAO3ymM7Q" name="RaceEntity">
+          <modelElement href="voting_system.uml#_41CekNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_D9RXSNUiEeqRsZAO3ymM7Q" name="compareTo">
+      <modelElement href="voting_system.uml#_50YbsNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_D9RXSdUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_50a38NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_D9RXStUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_50cGENUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_D9RXS9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_D9RXTNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_D9RXTdUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_50aQ4NUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_D9RXTtUiEeqRsZAO3ymM7Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_D9RXT9UiEeqRsZAO3ymM7Q" name="o">
+        <modelElement href="voting_system.uml#_50YbsdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_D9RXUNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_D9RXUdUiEeqRsZAO3ymM7Q" name="BallotEntity">
+          <modelElement href="voting_system.uml#_4voaINUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_EBK_0NUiEeqRsZAO3ymM7Q" name="Candidate" subclassedBy="_EC1MsNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4wLMsNUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EBLm4NUiEeqRsZAO3ymM7Q" position="646.0,254.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EBLm4dUiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_EBLm4tUiEeqRsZAO3ymM7Q" defaultValue="48" name="MAXIMUM_LINE_LENGTH">
+      <modelElement href="voting_system.uml#_4wNo8NUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EBLm49UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4wRTUNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EBLm5NUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EBLm5dUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EBLm5tUiEeqRsZAO3ymM7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EF4gsNUiEeqRsZAO3ymM7Q" name="CandidateEntity" associationsIn="_EE_v4NUiEeqRsZAO3ymM7Q" associationsOut="_EFffINUiEeqRsZAO3ymM7Q" generalizations="_EC1MsNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4wShcNUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EF4gsdUiEeqRsZAO3ymM7Q" position="537.0,371.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_EF4gstUiEeqRsZAO3ymM7Q" name="JPA1StyledElement">
+      <modelElement href="voting_system.uml#_4wZPINUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <visibility xmi:id="_EF4gs9UiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_EF4gtNUiEeqRsZAO3ymM7Q" name="id">
+      <modelElement href="voting_system.uml#_6B9ksNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EF4gtdUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6B-LwNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EF4gttUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6B_Z4NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF4gt9UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EF4guNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EF4gudUiEeqRsZAO3ymM7Q" name="Long">
+        <modelElement href="voting_system.uml#_5_W8oNUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EF4gutUiEeqRsZAO3ymM7Q" name="name">
+      <modelElement href="voting_system.uml#_6CAA8NUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EF4gu9UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CBPENUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EF4gvNUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CB2INUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF4gvdUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EF4gvtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EF4gv9UiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EF4gwNUiEeqRsZAO3ymM7Q" name="votes">
+      <modelElement href="voting_system.uml#_6CCdMdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EF4gwdUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CDEQNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EF4gwtUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CDrUNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF4gw9UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EF4gxNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EF4gxdUiEeqRsZAO3ymM7Q" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EF4gxtUiEeqRsZAO3ymM7Q" name="race">
+      <modelElement href="voting_system.uml#_6CESYdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EF4gx9UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CFggNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EF4gyNUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CGHkNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF4gydUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EF4gytUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EF4gy9UiEeqRsZAO3ymM7Q" name="RaceEntity">
+        <modelElement href="voting_system.uml#_41CekNUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EF4gzNUiEeqRsZAO3ymM7Q" name="CandidateEntity">
+      <modelElement href="voting_system.uml#_4wcScNUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EF4gzdUiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EF4gztUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4weHoNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF4gz9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EF4g0NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EF4g0dUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4wdgkNUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EF4g0tUiEeqRsZAO3ymM7Q" name="CandidateEntity">
+          <modelElement href="voting_system.uml#_4wShcNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EF5HwNUiEeqRsZAO3ymM7Q" name="CandidateEntity">
+      <modelElement href="voting_system.uml#_4wfVwNUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EF5HwdUiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EF5HwtUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4whyANUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF5Hw9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EF5HxNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EF5HxdUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4whK8dUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EF5HxtUiEeqRsZAO3ymM7Q" name="CandidateEntity">
+          <modelElement href="voting_system.uml#_4wShcNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EF5Hx9UiEeqRsZAO3ymM7Q" name="name">
+        <modelElement href="voting_system.uml#_4wf80NUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EF5HyNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EF5HydUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EF5HytUiEeqRsZAO3ymM7Q" name="race">
+        <modelElement href="voting_system.uml#_4wgj4NUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EF5Hy9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EF5HzNUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EF5HzdUiEeqRsZAO3ymM7Q" name="getName">
+      <modelElement href="voting_system.uml#_4whyAdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EF5HztUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4wkOQNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF5Hz9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EF5H0NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EF5H0dUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4wjnMNUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EF5H0tUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EF5H09UiEeqRsZAO3ymM7Q" name="setRace">
+      <modelElement href="voting_system.uml#_4wlcYNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EF5H1NUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4wmqgNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF5H1dUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EF5H1tUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EF5H19UiEeqRsZAO3ymM7Q" name="race">
+        <modelElement href="voting_system.uml#_4wmDcNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EF5H2NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EF5H2dUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EF5H2tUiEeqRsZAO3ymM7Q" name="setRace">
+      <modelElement href="voting_system.uml#_51IpoNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EF5H29UiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_51JQsNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF5H3NUiEeqRsZAO3ymM7Q" label="~"/>
+      <cardinality xmi:id="_EF5H3dUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EF5H3tUiEeqRsZAO3ymM7Q" name="race">
+        <modelElement href="voting_system.uml#_51IpodUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EF5H39UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EF5H4NUiEeqRsZAO3ymM7Q" name="RaceEntity">
+          <modelElement href="voting_system.uml#_41CekNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EF5H4dUiEeqRsZAO3ymM7Q" name="addToRace">
+      <modelElement href="voting_system.uml#_51J3wNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EF5H4tUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_51Ke0NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF5H49UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EF5H5NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EF5H5dUiEeqRsZAO3ymM7Q" name="race">
+        <modelElement href="voting_system.uml#_51J3wdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EF5H5tUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EF5H59UiEeqRsZAO3ymM7Q" name="RaceEntity">
+          <modelElement href="voting_system.uml#_41CekNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EF5H6NUiEeqRsZAO3ymM7Q" name="compareTo">
+      <modelElement href="voting_system.uml#_51LF4NUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EF5H6dUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_51MUANUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EF5H6tUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_51NiINUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EF5H69UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EF5H7NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EF5H7dUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_51Ls8NUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EF5H7tUiEeqRsZAO3ymM7Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EF5H79UiEeqRsZAO3ymM7Q" name="o">
+        <modelElement href="voting_system.uml#_51LF4dUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EF5H8NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EF5H8dUiEeqRsZAO3ymM7Q" name="Candidate">
+          <modelElement href="voting_system.uml#_4wLMsNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_EH-LYNUiEeqRsZAO3ymM7Q" name="ElectionOfficial" generalizations="_EMZYYNUiEeqRsZAO3ymM7Q" subclassedBy="_EJkG0NUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4xR_8NUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EH-LYdUiEeqRsZAO3ymM7Q" position="1945.0,376.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EH-LYtUiEeqRsZAO3ymM7Q" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EKtWUNUiEeqRsZAO3ymM7Q" comments="_EKTtsNUiEeqRsZAO3ymM7Q" targetConnectionVisual="_EKmooNUiEeqRsZAO3ymM7Q" name="ElectionOfficialEntity" generalizations="_EJkG0NUiEeqRsZAO3ymM7Q _ERsvINUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4xW4cNUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EKtWUdUiEeqRsZAO3ymM7Q" position="1667.0,590.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_EKtWUtUiEeqRsZAO3ymM7Q" name="JPA1StyledElement">
+      <modelElement href="voting_system.uml#_4xZUsNUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <visibility xmi:id="_EKtWU9UiEeqRsZAO3ymM7Q" label="+"/>
+    <operations xmi:id="_EKtWVNUiEeqRsZAO3ymM7Q" name="ElectionOfficialEntity">
+      <modelElement href="voting_system.uml#_4xZ7wNUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EKt9YNUiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EKt9YdUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4xbw8NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EKt9YtUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EKt9Y9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EKt9ZNUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4xbJ4NUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EKt9ZdUiEeqRsZAO3ymM7Q" name="ElectionOfficialEntity">
+          <modelElement href="voting_system.uml#_4xW4cNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EKt9ZtUiEeqRsZAO3ymM7Q" name="ElectionOfficialEntity">
+      <modelElement href="voting_system.uml#_4xcYANUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EKt9Z9UiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EKt9aNUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4xfbUNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EKt9adUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EKt9atUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EKt9a9UiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4xeNMtUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EKt9bNUiEeqRsZAO3ymM7Q" name="ElectionOfficialEntity">
+          <modelElement href="voting_system.uml#_4xW4cNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EKt9bdUiEeqRsZAO3ymM7Q" name="name">
+        <modelElement href="voting_system.uml#_4xc_ENUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EKt9btUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EKt9b9UiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EKt9cNUiEeqRsZAO3ymM7Q" name="dateOfBirth">
+        <modelElement href="voting_system.uml#_4xdmINUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EKt9cdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EKt9ctUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_EN1i0NUiEeqRsZAO3ymM7Q" name="Person" subclassedBy="_EMZYYNUiEeqRsZAO3ymM7Q _EPwOYNUiEeqRsZAO3ymM7Q _Eld_sNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4xsPoNUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EN2J4NUiEeqRsZAO3ymM7Q" position="1855.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EN2J4dUiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_EN2J4tUiEeqRsZAO3ymM7Q" defaultValue="48" name="MAXIMUM_LINE_LENGTH">
+      <modelElement href="voting_system.uml#_4xuE0NUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EN2J49UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4xvS8NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EN2J5NUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EN2J5dUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EN2J5tUiEeqRsZAO3ymM7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EN2J59UiEeqRsZAO3ymM7Q" defaultValue="8" name="MAXIMUM_DATE_LENGTH">
+      <modelElement href="voting_system.uml#_4xv6ANUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EN2J6NUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4xxvMNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EN2J6dUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EN2J6tUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EN2J69UiEeqRsZAO3ymM7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EN2J7NUiEeqRsZAO3ymM7Q" name="name">
+      <modelElement href="voting_system.uml#_4xyWQNUhEeqRsZAO3ymM7Q"/>
+      <visibility xmi:id="_EN2J7dUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EN2J7tUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EN2J79UiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EN2J8NUiEeqRsZAO3ymM7Q" name="dateOfBirth">
+      <modelElement href="voting_system.uml#_4xy9UNUhEeqRsZAO3ymM7Q"/>
+      <visibility xmi:id="_EN2J8dUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EN2J8tUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EN2J89UiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ET_1MNUiEeqRsZAO3ymM7Q" comments="_ERpr0NUiEeqRsZAO3ymM7Q" targetConnectionVisual="_ERrhANUiEeqRsZAO3ymM7Q" name="PersonEntity" abstractClass="true" generalizations="_EPwOYNUiEeqRsZAO3ymM7Q" subclassedBy="_ERsvINUiEeqRsZAO3ymM7Q _ERwZgNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4x0LcNUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_ET_1MdUiEeqRsZAO3ymM7Q" position="1364.0,270.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ET_1MtUiEeqRsZAO3ymM7Q" name="InheritanceMapping">
+      <modelElement href="voting_system.uml#_4yaBUNUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <stereotypes xmi:id="_ET_1M9UiEeqRsZAO3ymM7Q" name="JPA1StyledElement">
+      <modelElement href="voting_system.uml#_4ycdkNUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <visibility xmi:id="_ET_1NNUiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_ET_1NdUiEeqRsZAO3ymM7Q" name="personId">
+      <modelElement href="voting_system.uml#_6CMOMNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_ET_1NtUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CNcUNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ET_1N9UiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CODYNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ET_1ONUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_ET_1OdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_ET_1OtUiEeqRsZAO3ymM7Q" name="Long">
+        <modelElement href="voting_system.uml#_5_W8oNUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ET_1O9UiEeqRsZAO3ymM7Q" name="name">
+      <modelElement href="voting_system.uml#_6CP4kNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_ET_1PNUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CP4kdUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ET_1PdUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CRtwNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ET_1PtUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_ET_1P9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_ET_1QNUiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ET_1QdUiEeqRsZAO3ymM7Q" name="dateOfBirth">
+      <modelElement href="voting_system.uml#_6CTi8NUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_ET_1QtUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CUxENUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ET_1Q9UiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CVYINUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ET_1RNUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_ET_1RdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_ET_1RtUiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ET_1R9UiEeqRsZAO3ymM7Q" name="PersonEntity">
+      <modelElement href="voting_system.uml#_4yfg4NUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_ET_1SNUiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_ET_1SdUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4yh9INUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ET_1StUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_ET_1S9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ET_1TNUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4ygH8tUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_ET_1TdUiEeqRsZAO3ymM7Q" name="PersonEntity">
+          <modelElement href="voting_system.uml#_4x0LcNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ET_1TtUiEeqRsZAO3ymM7Q" name="PersonEntity">
+      <modelElement href="voting_system.uml#_4yjyUNUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_ET_1T9UiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_ET_1UNUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4ymOkNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ET_1UdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_ET_1UtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ET_1U9UiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4ylngNUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_ET_1VNUiEeqRsZAO3ymM7Q" name="PersonEntity">
+          <modelElement href="voting_system.uml#_4x0LcNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ET_1VdUiEeqRsZAO3ymM7Q" name="name">
+        <modelElement href="voting_system.uml#_4ykZYNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_ET_1VtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_ET_1V9UiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ET_1WNUiEeqRsZAO3ymM7Q" name="dateOfBirth">
+        <modelElement href="voting_system.uml#_4ykZYdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_ET_1WdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_ET_1WtUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ET_1W9UiEeqRsZAO3ymM7Q" name="getDateOfBirth">
+      <modelElement href="voting_system.uml#_4yoDwNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_ET_1XNUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4yqgANUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ET_1XdUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_4ysVMNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ET_1XtUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_ET_1X9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ET_1YNUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4ypR4NUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_ET_1YdUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ET_1YtUiEeqRsZAO3ymM7Q" name="getPersonByName" staticOperation="true">
+      <modelElement href="voting_system.uml#_4ys8QNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_ET_1Y9UiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4yuKYNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ET_1ZNUiEeqRsZAO3ymM7Q" label="~"/>
+      <cardinality xmi:id="_ET_1ZdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ET_1ZtUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_54SrUNUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_ET_1Z9UiEeqRsZAO3ymM7Q" name="Person">
+          <modelElement href="voting_system.uml#_4xsPoNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ET_1aNUiEeqRsZAO3ymM7Q" name="name">
+        <modelElement href="voting_system.uml#_4ytjUNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_ET_1adUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EUAcQNUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EUAcQdUiEeqRsZAO3ymM7Q" name="dateOfBirth">
+        <modelElement href="voting_system.uml#_4ytjUdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EUAcQtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EUAcQ9UiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_EYZ0ENUiEeqRsZAO3ymM7Q" name="Proposition" subclassedBy="_EV89ANUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4y37YNUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EYZ0EdUiEeqRsZAO3ymM7Q" position="195.0,1241.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EYZ0EtUiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_EYZ0E9UiEeqRsZAO3ymM7Q" defaultValue="48" name="MAXIMUM_LINE_LENGTH">
+      <modelElement href="voting_system.uml#_4y5JgNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EYZ0FNUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4y6-sNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EYZ0FdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EYabINUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EYabIdUiEeqRsZAO3ymM7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EYabItUiEeqRsZAO3ymM7Q" defaultValue="100" name="MAXIMUM_DESC_LENGTH">
+      <modelElement href="voting_system.uml#_4y9a8NUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EYabI9UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4y_QINUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EYabJNUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EYabJdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EYabJtUiEeqRsZAO3ymM7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EZYEcNUiEeqRsZAO3ymM7Q" name="PropositionEntity" associationsIn="_D9INUNUiEeqRsZAO3ymM7Q" associationsOut="_D87ZANUiEeqRsZAO3ymM7Q" generalizations="_EV89ANUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4zAeQNUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EZYEcdUiEeqRsZAO3ymM7Q" position="62.0,1395.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_EZYEctUiEeqRsZAO3ymM7Q" name="JPA1StyledElement">
+      <modelElement href="voting_system.uml#_4zC6gNUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <visibility xmi:id="_EZYEc9UiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_EZYEdNUiEeqRsZAO3ymM7Q" name="id">
+      <modelElement href="voting_system.uml#_6CWmQNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYEddUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CXNUNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EZYEdtUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CX0YNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYEd9UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EZYEeNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EZYEedUiEeqRsZAO3ymM7Q" name="Long">
+        <modelElement href="voting_system.uml#_5_W8oNUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EZYEetUiEeqRsZAO3ymM7Q" name="title">
+      <modelElement href="voting_system.uml#_6CaQoNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYEe9UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6Ca3sNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EZYEfNUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6Ccs4NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYEfdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EZYEftUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EZYEf9UiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EZYEgNUiEeqRsZAO3ymM7Q" name="description">
+      <modelElement href="voting_system.uml#_6CdT8NUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYEgdUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CeiENUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EZYEgtUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CfJINUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYEg9UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EZYEhNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EZYEhdUiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EZYEhtUiEeqRsZAO3ymM7Q" name="yesVotes">
+      <modelElement href="voting_system.uml#_6CfwMNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYEh9UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6CgXQNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EZYEiNUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6Cg-UNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYEidUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EZYEitUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EZYEi9UiEeqRsZAO3ymM7Q" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EZYEjNUiEeqRsZAO3ymM7Q" name="noVotes">
+      <modelElement href="voting_system.uml#_6Cg-UtUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYEjdUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6ChlYNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EZYEjtUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6CiMcNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYEj9UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EZYEkNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EZYEkdUiEeqRsZAO3ymM7Q" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EZYEktUiEeqRsZAO3ymM7Q" name="ballot">
+      <modelElement href="voting_system.uml#_6CiMctUhEeqRsZAO3ymM7Q"/>
+      <visibility xmi:id="_EZYEk9UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EZYElNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EZYEldUiEeqRsZAO3ymM7Q" name="BallotEntity">
+        <modelElement href="voting_system.uml#_4voaINUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EZYEltUiEeqRsZAO3ymM7Q" name="PropositionEntity">
+      <modelElement href="voting_system.uml#_4zF90NUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EZYEl9UiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EZYEmNUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4zHzANUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYEmdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EZYEmtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EZYEm9UiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4zHL8dUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EZYEnNUiEeqRsZAO3ymM7Q" name="PropositionEntity">
+          <modelElement href="voting_system.uml#_4zAeQNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EZYEndUiEeqRsZAO3ymM7Q" name="PropositionEntity">
+      <modelElement href="voting_system.uml#_4zIaENUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EZYEntUiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EZYEn9UiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4zKPQNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYEoNUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EZYEodUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EZYrgNUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4zJoMtUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EZYrgdUiEeqRsZAO3ymM7Q" name="PropositionEntity">
+          <modelElement href="voting_system.uml#_4zAeQNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EZYrgtUiEeqRsZAO3ymM7Q" name="title">
+        <modelElement href="voting_system.uml#_4zJBINUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EZYrg9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EZYrhNUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EZYrhdUiEeqRsZAO3ymM7Q" name="description">
+        <modelElement href="voting_system.uml#_4zJBIdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EZYrhtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EZYrh9UiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EZYriNUiEeqRsZAO3ymM7Q" name="voteYes">
+      <modelElement href="voting_system.uml#_4zK2UNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYridUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4zLdYNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYritUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EZYri9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_EZYrjNUiEeqRsZAO3ymM7Q" name="voteNo">
+      <modelElement href="voting_system.uml#_4zLdYdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYrjdUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4zMEcNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYrjtUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EZYrj9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_EZYrkNUiEeqRsZAO3ymM7Q" name="getDescription">
+      <modelElement href="voting_system.uml#_4zMrgNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYrkdUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4zN5oNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYrktUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EZYrk9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EZYrlNUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4zNSkNUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EZYrldUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EZYrltUiEeqRsZAO3ymM7Q" name="getVotes">
+      <modelElement href="voting_system.uml#_4zOgsNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYrl9UiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_4zQ88NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYrmNUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EZYrmdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EZYrmtUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_4zPu0NUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EZYrm9UiEeqRsZAO3ymM7Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EZYrnNUiEeqRsZAO3ymM7Q" name="addToBallot">
+      <modelElement href="voting_system.uml#_54aAENUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYrndUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_54bOMNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYrntUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EZYrn9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EZYroNUiEeqRsZAO3ymM7Q" name="ballot">
+        <modelElement href="voting_system.uml#_54anINUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EZYrodUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EZYrotUiEeqRsZAO3ymM7Q" name="BallotEntity">
+          <modelElement href="voting_system.uml#_4voaINUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EZYro9UiEeqRsZAO3ymM7Q" name="compareTo">
+      <modelElement href="voting_system.uml#_54bOMdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EZYrpNUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_54dDYNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EZYrpdUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_54dqcNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EZYrptUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EZYrp9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EZYrqNUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_54ccUNUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EZYrqdUiEeqRsZAO3ymM7Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EZYrqtUiEeqRsZAO3ymM7Q" name="o">
+        <modelElement href="voting_system.uml#_54b1QNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EZYrq9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EZYrrNUiEeqRsZAO3ymM7Q" name="Proposition">
+          <modelElement href="voting_system.uml#_4y37YNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_EgZ5gNUiEeqRsZAO3ymM7Q" name="Race" subclassedBy="_EeGMYNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4zbVANUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EgZ5gdUiEeqRsZAO3ymM7Q" position="10.0,665.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_EgZ5gtUiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_EgZ5g9UiEeqRsZAO3ymM7Q" defaultValue="48" name="MAXIMUM_LINE_LENGTH">
+      <modelElement href="voting_system.uml#_4zdKMNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EgZ5hNUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4ze_YNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EgZ5hdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EgZ5htUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EgZ5h9UiEeqRsZAO3ymM7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EgZ5iNUiEeqRsZAO3ymM7Q" name="addCandidate">
+      <modelElement href="voting_system.uml#_54ii8NUhEeqRsZAO3ymM7Q"/>
+      <visibility xmi:id="_EgZ5idUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EgZ5itUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EgZ5i9UiEeqRsZAO3ymM7Q" name="candidate">
+        <modelElement href="voting_system.uml#_54jKANUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EgZ5jNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EgZ5jdUiEeqRsZAO3ymM7Q" name="CandidateEntity">
+          <modelElement href="voting_system.uml#_4wShcNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EhnacNUiEeqRsZAO3ymM7Q" name="RaceEntity" associationsIn="_D9PiENUiEeqRsZAO3ymM7Q _EFffINUiEeqRsZAO3ymM7Q" associationsOut="_EE_v4NUiEeqRsZAO3ymM7Q _D9CtwNUiEeqRsZAO3ymM7Q" generalizations="_EeGMYNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_41CekNUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EhnacdUiEeqRsZAO3ymM7Q" position="267.0,841.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_EhnactUiEeqRsZAO3ymM7Q" name="JPA1StyledElement">
+      <modelElement href="voting_system.uml#_41ETwNUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <visibility xmi:id="_Ehnac9UiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_EhnadNUiEeqRsZAO3ymM7Q" name="id">
+      <modelElement href="voting_system.uml#_6DnxkNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EhnaddUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6Do_sNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EhnadtUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6Dq04NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Ehnad9UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EhnaeNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EhnaedUiEeqRsZAO3ymM7Q" name="Long">
+        <modelElement href="voting_system.uml#_5_W8oNUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EhnaetUiEeqRsZAO3ymM7Q" name="position">
+      <modelElement href="voting_system.uml#_6Drb8dUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_Ehnae9UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6DsDANUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EhnafNUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6DtRINUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EhnafdUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EhnaftUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Ehnaf9UiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EhnagNUiEeqRsZAO3ymM7Q" name="candidates">
+      <modelElement href="voting_system.uml#_6Dt4MNUhEeqRsZAO3ymM7Q"/>
+      <visibility xmi:id="_EhnagdUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EhnagtUiEeqRsZAO3ymM7Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_Ehnag9UiEeqRsZAO3ymM7Q" name="CandidateEntity">
+        <modelElement href="voting_system.uml#_4wShcNUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EhnahNUiEeqRsZAO3ymM7Q" name="ballot">
+      <modelElement href="voting_system.uml#_6DwUcNUhEeqRsZAO3ymM7Q"/>
+      <visibility xmi:id="_EhnahdUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EhnahtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Ehnah9UiEeqRsZAO3ymM7Q" name="BallotEntity">
+        <modelElement href="voting_system.uml#_4voaINUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EhnaiNUiEeqRsZAO3ymM7Q" name="RaceEntity">
+      <modelElement href="voting_system.uml#_41Fh4NUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EhnaidUiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EhnaitUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_41GwANUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Ehnai9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EhnajNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EhnajdUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_41GI8tUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EhnajtUiEeqRsZAO3ymM7Q" name="RaceEntity">
+          <modelElement href="voting_system.uml#_41CekNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ehnaj9UiEeqRsZAO3ymM7Q" name="RaceEntity">
+      <modelElement href="voting_system.uml#_41HXENUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EhnakNUiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EhnakdUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_41IlMNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EhnaktUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_Ehnak9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EhnalNUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_41H-ItUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EhnaldUiEeqRsZAO3ymM7Q" name="RaceEntity">
+          <modelElement href="voting_system.uml#_41CekNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EhnaltUiEeqRsZAO3ymM7Q" name="position">
+        <modelElement href="voting_system.uml#_41HXEdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_Ehnal9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EhnamNUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EhnamdUiEeqRsZAO3ymM7Q" name="getPosition">
+      <modelElement href="voting_system.uml#_41IlMdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EhnamtUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_41LBcNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Ehnam9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EhnanNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EhnandUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_41JzUNUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EhnantUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ehnan9UiEeqRsZAO3ymM7Q" name="addCandidate">
+      <modelElement href="voting_system.uml#_595kENUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EhnaoNUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_597ZQNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EhnaodUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_599OcNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EhnaotUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_Ehnao9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EhnapNUiEeqRsZAO3ymM7Q" name="candidate">
+        <modelElement href="voting_system.uml#_596LINUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EhnapdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EhnaptUiEeqRsZAO3ymM7Q" name="CandidateEntity">
+          <modelElement href="voting_system.uml#_4wShcNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Ehnap9UiEeqRsZAO3ymM7Q" name="addToBallot">
+      <modelElement href="voting_system.uml#_5991gdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EhnaqNUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_59_DoNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EhnaqdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EhnaqtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ehnaq9UiEeqRsZAO3ymM7Q" name="ballot">
+        <modelElement href="voting_system.uml#_59-ckNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EhnarNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EhnardUiEeqRsZAO3ymM7Q" name="BallotEntity">
+          <modelElement href="voting_system.uml#_4voaINUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EhnartUiEeqRsZAO3ymM7Q" name="compareTo">
+      <modelElement href="voting_system.uml#_59_DodUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_Ehnar9UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_5-A40NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EhnasNUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_5-Bf4NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EhnasdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EhnastUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ehnas9UiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_5-ARwNUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EhnatNUiEeqRsZAO3ymM7Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EhnatdUiEeqRsZAO3ymM7Q" name="o">
+        <modelElement href="voting_system.uml#_59_qsNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EhnattUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_Ehnat9UiEeqRsZAO3ymM7Q" name="Race">
+          <modelElement href="voting_system.uml#_4zbVANUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Eo_NwNUiEeqRsZAO3ymM7Q" name="Voter" generalizations="_Eld_sNUiEeqRsZAO3ymM7Q" subclassedBy="_En4agNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_4zlGANUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_Eo_NwdUiEeqRsZAO3ymM7Q" position="2193.0,316.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Eo_NwtUiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_Eo_Nw9UiEeqRsZAO3ymM7Q" defaultValue="32" name="MAXIMUM_CITY_LENGTH">
+      <modelElement href="voting_system.uml#_4zniQNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_Eo_NxNUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4zowYNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Eo_NxdUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_Eo_NxtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Eo_Nx9UiEeqRsZAO3ymM7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Eo_NyNUiEeqRsZAO3ymM7Q" defaultValue="2" name="STATE_LENGTH">
+      <modelElement href="voting_system.uml#_4zpXcNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_Eo_NydUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4zqlkNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Eo_NytUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_Eo_Ny9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Eo_NzNUiEeqRsZAO3ymM7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Eo_NzdUiEeqRsZAO3ymM7Q" defaultValue="5" name="ZIPCODE_LENGTH">
+      <modelElement href="voting_system.uml#_4zqlkdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_Eo_NztUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_4zrzsNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Eo_Nz9UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_Eo_N0NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Eo_N0dUiEeqRsZAO3ymM7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Eo_N0tUiEeqRsZAO3ymM7Q" name="address">
+      <modelElement href="voting_system.uml#_4zsawNUhEeqRsZAO3ymM7Q"/>
+      <visibility xmi:id="_Eo_N09UiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_Eo_N1NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Eo_N1dUiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EtHf0NUiEeqRsZAO3ymM7Q" comments="_ETRccNUiEeqRsZAO3ymM7Q" targetConnectionVisual="_ETzn8NUiEeqRsZAO3ymM7Q" name="VoterEntity" associationsOut="_D9ARgNUiEeqRsZAO3ymM7Q" generalizations="_ERwZgNUiEeqRsZAO3ymM7Q _En4agNUiEeqRsZAO3ymM7Q">
+    <modelElement href="voting_system.uml#_40mZsNUhEeqRsZAO3ymM7Q"/>
+    <visualProperties xmi:id="_EtHf0dUiEeqRsZAO3ymM7Q" position="1044.0,723.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_EtHf0tUiEeqRsZAO3ymM7Q" name="JPA1StyledElement">
+      <modelElement href="voting_system.uml#_40oO4NUhEeqRsZAO3ymM7Q"/>
+    </stereotypes>
+    <visibility xmi:id="_EtHf09UiEeqRsZAO3ymM7Q" label="+"/>
+    <attributes xmi:id="_EtHf1NUiEeqRsZAO3ymM7Q" name="address1">
+      <modelElement href="voting_system.uml#_6DZIENUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EtHf1dUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6DZvINUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EtHf1tUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6DaWMNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EtHf19UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EtHf2NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EtHf2dUiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EtHf2tUiEeqRsZAO3ymM7Q" name="address2">
+      <modelElement href="voting_system.uml#_6DaWNNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EtHf29UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6Da9QNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EtHf3NUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6DbkUNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EtHf3dUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EtHf3tUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EtHf39UiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EtHf4NUiEeqRsZAO3ymM7Q" name="city">
+      <modelElement href="voting_system.uml#_6DcLYdUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EtHf4dUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6DcycNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EtHf4tUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6DcycdUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EtHf49UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EtHf5NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EtHf5dUiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EtHf5tUiEeqRsZAO3ymM7Q" name="state">
+      <modelElement href="voting_system.uml#_6DdZg9UhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EtHf59UiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6DeAkNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EtHf6NUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6Df1wNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EtHf6dUiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EtHf6tUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EtHf69UiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EtHf7NUiEeqRsZAO3ymM7Q" name="zipCode">
+      <modelElement href="voting_system.uml#_6DhD4NUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EtHf7dUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_6DiSANUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EtHf7tUiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_6Di5ENUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EtHf79UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EtHf8NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EtHf8dUiEeqRsZAO3ymM7Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EtHf8tUiEeqRsZAO3ymM7Q" name="ballot">
+      <modelElement href="voting_system.uml#_6DkuQNUhEeqRsZAO3ymM7Q"/>
+      <visibility xmi:id="_EtHf89UiEeqRsZAO3ymM7Q" label="-"/>
+      <cardinality xmi:id="_EtHf9NUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_EtHf9dUiEeqRsZAO3ymM7Q" name="BallotEntity">
+        <modelElement href="voting_system.uml#_4voaINUhEeqRsZAO3ymM7Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EtHf9tUiEeqRsZAO3ymM7Q" name="VoterEntity">
+      <modelElement href="voting_system.uml#_40o18NUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EtHf99UiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EtHf-NUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_40qEENUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EtHf-dUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EtHf-tUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EtHf-9UiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_40pdAtUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EtHf_NUiEeqRsZAO3ymM7Q" name="VoterEntity">
+          <modelElement href="voting_system.uml#_40mZsNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EtHf_dUiEeqRsZAO3ymM7Q" name="VoterEntity">
+      <modelElement href="voting_system.uml#_40rSMNUhEeqRsZAO3ymM7Q"/>
+      <keywords xmi:id="_EtHf_tUiEeqRsZAO3ymM7Q" keyword="create"/>
+      <stereotypes xmi:id="_EtHf_9UiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_40uVgNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EtHgANUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EtHgAdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EtHgAtUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_40tuctUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EtHgA9UiEeqRsZAO3ymM7Q" name="VoterEntity">
+          <modelElement href="voting_system.uml#_40mZsNUhEeqRsZAO3ymM7Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_EtHgBNUiEeqRsZAO3ymM7Q" name="name">
+        <modelElement href="voting_system.uml#_40r5QNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgBdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgBtUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgB9UiEeqRsZAO3ymM7Q" name="address1">
+        <modelElement href="voting_system.uml#_40r5QdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgCNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgCdUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgCtUiEeqRsZAO3ymM7Q" name="address2">
+        <modelElement href="voting_system.uml#_40sgUNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgC9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgDNUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgDdUiEeqRsZAO3ymM7Q" name="city">
+        <modelElement href="voting_system.uml#_40sgUdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgDtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgD9UiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgENUiEeqRsZAO3ymM7Q" name="state">
+        <modelElement href="voting_system.uml#_40tHYNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgEdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgEtUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgE9UiEeqRsZAO3ymM7Q" name="zipCode">
+        <modelElement href="voting_system.uml#_40tHYdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgFNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgFdUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgFtUiEeqRsZAO3ymM7Q" name="dateOfBirth">
+        <modelElement href="voting_system.uml#_40tHYtUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgF9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgGNUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EtHgGdUiEeqRsZAO3ymM7Q" name="getAddress">
+      <modelElement href="voting_system.uml#_40wxwNUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EtHgGtUiEeqRsZAO3ymM7Q" name="LegacyStyledElement">
+        <modelElement href="voting_system.uml#_40ym8NUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EtHgG9UiEeqRsZAO3ymM7Q" name="Annotations">
+        <modelElement href="voting_system.uml#_40zOANUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EtHgHNUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EtHgHdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_EtHgHtUiEeqRsZAO3ymM7Q">
+        <modelElement href="voting_system.uml#_40x_4NUhEeqRsZAO3ymM7Q"/>
+        <type xmi:id="_EtHgH9UiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EtHgINUiEeqRsZAO3ymM7Q" name="setAddress">
+      <modelElement href="voting_system.uml#_400cINUhEeqRsZAO3ymM7Q"/>
+      <stereotypes xmi:id="_EtHgIdUiEeqRsZAO3ymM7Q" name="StyledElement">
+        <modelElement href="voting_system.uml#_403fcNUhEeqRsZAO3ymM7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_EtHgItUiEeqRsZAO3ymM7Q" label="+"/>
+      <cardinality xmi:id="_EtHgI9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EtHgJNUiEeqRsZAO3ymM7Q" name="streetAddress1">
+        <modelElement href="voting_system.uml#_401DMNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgJdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgJtUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgJ9UiEeqRsZAO3ymM7Q" name="streetAddress2">
+        <modelElement href="voting_system.uml#_401qQNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgKNUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgKdUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgKtUiEeqRsZAO3ymM7Q" name="city">
+        <modelElement href="voting_system.uml#_401qQdUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgK9UiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgLNUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgLdUiEeqRsZAO3ymM7Q" name="state">
+        <modelElement href="voting_system.uml#_401qQtUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgLtUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgL9UiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_EtHgMNUiEeqRsZAO3ymM7Q" name="zipCode">
+        <modelElement href="voting_system.uml#_402RUNUhEeqRsZAO3ymM7Q"/>
+        <cardinality xmi:id="_EtHgMdUiEeqRsZAO3ymM7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_EtHgMtUiEeqRsZAO3ymM7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
